@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Phumnawat Phosawatmanee - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Phumnawat Phosawatmanee</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="visualizations.html">Visualizations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="home-content">
+        <div class="text-content">
+          <h3>Hello, It's Me</h3>
+          <h1>Phumnawat Phosawatmanee</h1>
+          <h3>And I'm a <span class="auto-type"></span></h3>
+          <p>Passionate about 3D modeling, web development, data visualization, and creative coding. Dedicated to creating detailed assets, animations, and interactive web experiences.</p>
+          <div class="social-icons">
+            <a href="https://github.com/Midas0901" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/phumnawat-phosawatmanee-a0a76626a" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/poom_phumnawat" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <div class="home-img">
+          <img src="0.jpg" alt="Phumnawat Phosawatmanee"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-text" style="max-width:900px; margin:0 auto; text-align:center; font-size:1.15rem;">
+        <p>I am an SFU student specializing in 3D modeling, animation, and front-end web development. I enjoy using tools like Onshape, Rhino 8, and Maya to create detailed 3D models and animations, as well as building responsive websites with HTML, CSS, and JavaScript.</p>
+        <p>My interests include data visualization, creative SVG art, and designing functional spaces with good lighting, airflow, and privacy. I focus on critical thinking and practical problem-solving in both digital and physical design.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills" class="section bg-dark">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>HTML & CSS</h3>
+          <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+          <span class="percentage">80%</span>
+        </div>
+        <div class="skill-card">
+          <h3>3D Modeling (Rhino 8)</h3>
+          <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+          <span class="percentage">90%</span>
+        </div>
+        <div class="skill-card">
+          <h3>Animation (Maya)</h3>
+          <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+          <span class="percentage">85%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience & Projects -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Education & Projects</h2>
+      <div class="timeline">
+        <!-- Education -->
+        <div class="timeline-item">
+          <h3>Education</h3>
+          <span class="date">2022 – Present</span>
+          <div class="education-entry">
+            <h4>Simon Fraser University (SFU)</h4>
+            <p class="location">Burnaby, British Columbia, Canada</p>
+            <p class="period">September 2023 – Present</p>
+            <p class="degree">Bachelor of Arts – Interactive Arts and Technology (SIAT)</p>
+          </div>
+          <div class="education-entry">
+            <h4>Fraser International College (FIC)</h4>
+            <p class="location">Burnaby, British Columbia, Canada</p>
+            <p class="period">September 2022 – August 2023</p>
+            <p class="degree">University Transfer Program (UTP) Stage II – Arts and Social Sciences</p>
+          </div>
+        </div>
+        <!-- Study Room Project -->
+        <div class="timeline-item">
+          <h3>Design projects at SFU (3D Model & Physical Prototype)</h3>
+          <span class="date">2025 – Present</span>
+          <p>Projects I Have Completed at SFU: Designed a pavilion for a public park, Created a study room tailored for student needs, Developed a water wave simulation using rotating machinery, Crafted an animated fish for multimedia applications</p>
+          <div class="project-main-image"><img src="1.jpg" alt="Main view"/></div>
+          <div class="project-gallery">
+            <img src="2.jpg" alt="Front view"/>
+            <img src="3.jpg" alt="Side view"/>
+            <img src="4.jpg" alt="Light flow"/>
+            <img src="5.jpg" alt="Privacy partitions"/>
+          </div>
+        </div>
+        <!-- SVG Projects -->
+        <div class="timeline-item">
+          <h3>SVG Visualization Projects</h3>
+          <span class="date">2025 – Present</span>
+         
+          <p><strong>Graph 1: Daily Time Usage</strong></p>
+          <p class="chart-description">This chart shows how I allocate my time throughout a typical day as a full-time SFU student balancing study and part-time work.</p>
+          <ul class="chart-legend">
+            <li>Sleep — 7 hours</li>
+            <li>Study — 5 hours</li>
+            <li>Classes — 2 hours</li>
+            <li>Part-time work — 4 hours</li>
+            <li>Other activities — 6 hours</li>
+          </ul>
+          <svg class="svg-chart" viewBox="0 0 600 340" width="100%" height="340">
+            <line x1="80" y1="300" x2="600" y2="300" stroke="#c9d1d9" stroke-width="2"/>
+            <line x1="80" y1="60" x2="80" y2="300" stroke="#c9d1d9" stroke-width="2"/>
+            <rect x="110" y="100" width="60" height="200" fill="#58a6ff"/>
+            <rect x="210" y="180" width="60" height="120" fill="#58a6ff"/>
+            <rect x="310" y="252" width="60" height="48" fill="#58a6ff"/>
+            <rect x="410" y="220" width="60" height="80" fill="#58a6ff"/>
+            <rect x="510" y="140" width="60" height="160" fill="#58a6ff"/>
+            <text x="140" y="320" fill="#c9d1d9" font-size="14" text-anchor="middle">Sleep</text>
+            <text x="240" y="320" fill="#c9d1d9" font-size="14" text-anchor="middle">Study</text>
+            <text x="340" y="320" fill="#c9d1d9" font-size="14" text-anchor="middle">Classes</text>
+            <text x="440" y="320" fill="#c9d1d9" font-size="14" text-anchor="middle">Part-time</text>
+            <text x="540" y="320" fill="#c9d1d9" font-size="14" text-anchor="middle">Others</text>
+            <text x="40" y="310" fill="#c9d1d9" font-size="14" text-anchor="end">0h</text>
+            <text x="40" y="226" fill="#c9d1d9" font-size="14" text-anchor="end">4h</text>
+            <text x="40" y="143" fill="#c9d1d9" font-size="14" text-anchor="end">6h</text>
+            <text x="40" y="60" fill="#c9d1d9" font-size="14" text-anchor="end">8h</text>
+          </svg>
+          <p><strong>Graph 2: Activities in Free Time</strong></p>
+          <p class="chart-description">This chart illustrates how I spend my free time across different activities.</p>
+          <ul class="chart-legend">
+            <li>Games — 10%</li>
+            <li>Movies — 15%</li>
+            <li>Reading — 4%</li>
+            <li>Working — 20%</li>
+            <li>Exercise — 10%</li>
+            <li>Planning — 1%</li>
+            <li>Study — 20%</li>
+            <li>Others — 20%</li>
+          </ul>
+          <div class="project-main-image"><img src="6.jpg" alt="Free time pie chart"/></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p style="text-align:center; margin-bottom:40px; color:#8b949e;">Feel free to reach out for collaborations, questions, or opportunities!</p>
+      <div class="contact-info">
+        <p><a href="mailto:poom_phubadin@hotmail.com"><i class="fas fa-envelope"></i> poom_phubadin@hotmail.com</a></p>
+        <p><a href="https://github.com/Midas0901" target="_blank"><i class="fab fa-github"></i> github.com/Midas0901</a></p>
+        <p><a href="https://www.linkedin.com/in/phumnawat-phosawatmanee-a0a76626a" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/phumnawat-phosawatmanee</a></p>
+        <p><a href="https://www.instagram.com/poom_phumnawat" target="_blank"><i class="fab fa-instagram"></i> instagram.com/poom_phumnawat</a></p>
+      </div>
+      <a href="mailto:poom_phubadin@hotmail.com" class="btn">Send Email</a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2026 Phumnawat Phosawatmanee. All rights reserved.</p>
+      <p>Designed and coded for 3D modeling · animation · web development · data visualization</p>
+      <div class="footer-social">
+        <a href="https://github.com/Midas0901" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/phumnawat-phosawatmanee-a0a76626a" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/poom_phumnawat" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="vis.js"></script>
+</body>
+</html>
